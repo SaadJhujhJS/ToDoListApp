@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a9db34;
+}
+
+.box {
+    width: 650px;
+    min-height: 430px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#item {
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    display: block;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px grey;
+}
+
+#to-do-list {
+    margin-top: 20px;
+    list-style: none;
+}
+
+#to-do-list li {
+    position: relative;
+    background-color: #1f2327;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 20px;
+    user-select: none;
+}
+
+#to-do-list li i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.done{
+    text-decoration:line-through;
+    color: black;
+    background-color: #5a6668 !important;
+}
